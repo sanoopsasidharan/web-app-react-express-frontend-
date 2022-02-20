@@ -1,0 +1,30 @@
+
+.admin-input_section{
+    background-color: #333e41;  
+    padding: 18px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.699);
+    line-height: 50px;
+}
+.admin-todu-container{
+    width: 350px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.admin-input_section input{
+    border-radius: 5px;
+    border: 1px solid silver;
+    width: 100%;
+    margin-top: 10px;
+    box-sizing: border-box;
+}   
+ input::placeholder{
+     color: black;
+     text-align: center;
+ }
+ .admin-input_section button{
+     margin-top: 8px;
+ }

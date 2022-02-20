@@ -1,0 +1,21 @@
+.parantTable{
+    display: flex;
+    justify-content: center;
+}
+.table{
+    width: 95%;
+    border: 1px solid black;
+    box-shadow: 13px 10px 25px grey;
+}
+.searchInp{
+    margin: 30px;
+    display: flex;
+    justify-content:right;
+    margin-right: 60px;
+}
+.searchInp input{
+    border-radius: 20px;
+    padding: 2px;
+    padding-left: 20px;
+    box-shadow: 13px 10px 25px grey;
+}

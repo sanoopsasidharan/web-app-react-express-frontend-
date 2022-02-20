@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    /* background-color: #056679; */
+    font-family: sans-serif;
+}
+h2{
+    margin: 0%;
+    margin-bottom: 10px;
+    color: rgb(255, 255, 255);
+}
+.input_section{
+    background-color: #056679;  
+    padding: 18px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.699);
+    line-height: 50px;
+}
+.todu-container{
+    width: 350px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.input_section input{
+    border-radius: 5px;
+    border: 1px solid silver;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}   
+ input::placeholder{
+     color: black;
+     text-align: center;
+ }

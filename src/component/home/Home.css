@@ -1,0 +1,10 @@
+.userNavbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px 0px 29px;
+}
+.mainContent{
+    display: flex;
+    justify-content: center;
+    margin-top: 250px;
+}
